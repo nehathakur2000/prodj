@@ -1,0 +1,105 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <div class="navbar">
+        <h1>RESTUARANTLY</h1>
+        <ul class="nav">
+            <li><a href="/index">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/specials">Specials</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/chefs">Chefs</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/form"></a></li>
+        </ul>
+        <button class="btn1"> <a href="/form">Book A Table</a></button>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- About Section Start -->
+    <section class="about-section">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolorum reprehenderit! Quisquam
+                explicabo eius voluptatibus, quae officia ipsam deserunt possimus!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus laudantium saepe nihil
+                doloribus reprehenderit incidunt nisi impedit. Excepturi, aspernatur.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec arcu vestibulum, euismod justo
+                ac, luctus orci. Mauris sit amet orci a est malesuada aliquet.</p>
+            <br>
+            <p>Nullam non libero vitae erat vestibulum placerat. Integer pharetra cursus libero, vel vehicula risus
+                fringilla et. Etiam eget magna nec ligula scelerisque ultrices.</p>
+        </div>
+        <div class="about-image">
+            <img src="{%static 'images/about2.jpg'%}" alt="About Us Image">
+        </div>
+    </section>
+    <br>
+
+    <!-- About Section End -->
+
+
+    <!-- Card Section Start -->
+    <h2 style="background-color: black; color: white; padding-left: 100px; padding-top: 100px;">WHY US_________</h2>
+    <h1 style="background-color: black; padding-left: 100px;"> <span class="sty">Why Choose Our Restuarant</span>
+    </h1>
+
+    <div class="card-section">
+        <div class="card">
+            <div class="card-txt">
+                <h1><span class="sty">01</span></h1><br>
+                <h1>Lorem Ipsum</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Quis, quam dolori aut cum debitis
+                    facere!</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-txt">
+                <h1><span class="sty">02</span></h1><br>
+                <h1>Ad ad velit qui</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Quis, quam dolori aut cum debitis
+                    facere!</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-txt">
+                <h1><span class="sty">03</span></h1><br>
+                <h1>Repallet Nihil</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Quis, quam dolori aut cum debitis
+                    facere!</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Card Section End -->
+
+    <script src="{%static 'js/slide.js'%}"></script>
+
+

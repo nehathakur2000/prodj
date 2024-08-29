@@ -1,0 +1,116 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <div class="navbar">
+        <h1>RESTUARANTLY</h1>
+        <ul class="nav">
+            <li><a href="/index">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/specials">Specials</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/chefs">Chefs</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="/form"></a></li>
+        </ul>
+        <button class="btn1"> <a href="/form">Book A Table</a></button>
+    </div>
+    <!-- Navbar end -->
+
+
+    <!-- Contact Section Start -->
+
+
+    <h2 style="background-color: #0c0b09; color: white; padding-left: 100px; padding-top: 100px;">
+        CONTACT__________</h2>
+    <h1 style="background-color: #0c0b09; padding-left: 100px;"> <span class="sty">Contact Us</span></h1>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.1930514607648!2d76.52205461037649!3d31.683289974031965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3904d55378abe22d%3A0x5f30058dd5fc4ee1!2sExcellence%20Technology%20Hamirpur!5e0!3m2!1sen!2sin!4v1716710038538!5m2!1sen!2sin"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- contact us start -->
+
+    <section class="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h2>Location</h2>
+                        <p>V.P.O-Kashmir<br>Teh-Galore<br>Distt-Hamirpur</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                    <div class="text">
+                        <h2>Call</h2>
+                        <p>9876543210</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h2>Email</h2>
+                        <p>tneha3309@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+                    <div class="input-box">
+                        <input type="text" name="name" required>
+                        <span>Your Name</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="email" name="email" required>
+                        <span>Your Email</span>
+                    </div>
+
+                    <div class="input-box">
+                        <textarea name="message" required></textarea>
+                        <span>Send a message..</span>
+                    </div>
+                    
+                    <div class="h-captcha" data-captcha="true"></div>
+                    <button type="submit">Submit Form</button>
+
+                </form>
+
+                <script src="https://web3forms.com/client/script.js" async defer></script>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+
+    <script src="{%static 'js/slide.js'%}"></script>

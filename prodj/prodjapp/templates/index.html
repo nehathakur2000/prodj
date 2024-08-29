@@ -1,0 +1,660 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+
+    <!-- CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <div class="navbar">
+        <h1>DIVYBHANDAR</h1>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/specials">Specials</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/chefs">Chefs</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/form"></a></li>
+        </ul>
+        <button class="btn1"> <a href="/form">Book A Table</a></button>
+    </div>
+    <!-- Navbar end -->
+
+    <main>
+
+        <!-- Hero Section Start -->
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>WELCOME TO <span class="sty">RESTUARANT</span></h1>
+                <p>Delivering great food for more than 18 years!</p>
+                <button class="btn2"> <a href="/form">Book A Table</a></button>
+            </div>
+        </div>
+        <!-- Hero Section End -->
+
+
+        <!-- About Section Start -->
+        <section class="about-section">
+            <div class="about-content">
+                <h1>About Us</h1>
+                <br>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolorum reprehenderit! Quisquam
+                    explicabo eius voluptatibus, quae officia ipsam deserunt possimus!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus laudantium saepe nihil
+                    doloribus reprehenderit incidunt nisi impedit. Excepturi, aspernatur.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec arcu vestibulum, euismod justo
+                    ac, luctus orci. Mauris sit amet orci a est malesuada aliquet.</p>
+                <br>
+                <p>Nullam non libero vitae erat vestibulum placerat. Integer pharetra cursus libero, vel vehicula risus
+                    fringilla et. Etiam eget magna nec ligula scelerisque ultrices.</p>
+            </div>
+            <div class="about-image">
+                <img src="{%static 'images/about2.jpg'%}" alt="About Us Image">
+            </div>
+        </section>
+        <br>
+
+        <!-- About Section End -->
+
+
+        <!-- Card Section Start -->
+        <h2 style="background-color: black; color: white; padding-left: 100px; padding-top: 100px;">WHY US_________</h2>
+        <h1 style="background-color: black; padding-left: 100px;"> <span class="sty">Why Choose Our Restuarant</span>
+        </h1>
+
+        <div class="card-section">
+            <div class="card">
+                <div class="card-txt">
+                    <h1><span class="sty">01</span></h1><br>
+                    <h1>Lorem Ipsum</h1><br>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Quis, quam dolori aut cum debitis
+                        facere!</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-txt">
+                    <h1><span class="sty">02</span></h1><br>
+                    <h1>Ad ad velit qui</h1><br>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Quis, quam dolori aut cum debitis
+                        facere!</p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-txt">
+                    <h1><span class="sty">03</span></h1><br>
+                    <h1>Repallet Nihil</h1><br>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Quis, quam dolori aut cum debitis
+                        facere!</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Card Section End -->
+
+
+
+        <!-- Menu Section Start -->
+        <h2 style="background-color: #0c0b09; color: white; padding-left: 100px; padding-top: 100px;">MENU_________</h2>
+        <h1 style="background-color: #0c0b09; padding-left: 100px;"> <span class="sty">Check Our Tasty Menu</span> </h1>
+
+        <div class="menus">
+            <ul class="menu-list">
+                <li><a href=""></a>All</li>
+                <li><a href=""></a>Starters</li>
+                <li><a href=""></a>Salads</li>
+                <li><a href=""></a>Specially</li>
+            </ul>
+        </div>
+
+        <div class="main-container">
+            <div class="card1">
+                <img src="{%static 'images/menu1.jpg'%}" alt="Avatar" style="width:80px" height="80px">
+                <div class="container">
+                    <h4><b>Bread Barrel-------------------------------------------------$5.95</b></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+            </div>
+
+
+            <div class="card1">
+                <img src="{%static 'images/menu2.jpg'%}" alt="Avatar" style="width:80px" height="80px">
+                <div class="container">
+                    <h4><b>Caser Selections----------------------------------------------$6.95</b></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+            </div>
+
+
+            <div class="card1">
+                <img src="{%static 'images/menu3.jpg'%}" alt="Avatar" style="width:80px" height="80px">
+                <div class="container">
+                    <h4><b>Cup Cake-----------------------------------------------------$7.95</b></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+            </div>
+
+
+            <div class="card1">
+                <img src="{%static 'images/menu4.jpg'%}" alt="Avatar" style="width:80px" height="80px">
+                <div class="container">
+                    <h4><b>Mozrella Stick------------------------------------------------$4.95</b></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+            </div>
+
+
+            <div class="card1">
+                <img src="{%static 'images/menu5.jpg'%}" alt="Avatar" style="width:80px" height="80px">
+                <div class="container">
+                    <h4><b>Spinach Salad-----------------------------------------------$9.95</b></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+            </div>
+
+
+            <div class="card1">
+                <img src="{%static 'images/menu6.jpg'%}" alt="Avatar" style="width:80px" height="80px">
+                <div class="container">
+                    <h4><b>Lobster Bisque-----------------------------------------------$12.95</b></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+            </div>
+
+
+            <div class="card1">
+                <img src="{%static 'images/menu7.jpg'%}" alt="Avatar" style="width:80px" height="80px">
+                <div class="container">
+                    <h4><b>Lobster Roll-------------------------------------------------$13.95</b></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+
+                </div>
+            </div>
+
+
+            <div class="card1">
+                <img src="{%static 'images/menu8.jpg'%}" alt="Avatar" style="width:80px" height="80px">
+                <div class="container">
+                    <h4><b>Bread Barrel-------------------------------------------------$5.95</b></h4>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Menu Section End -->
+
+
+        <!-- Special Section Start -->
+
+
+        <h2 style="background-color: #0c0b09; color: white; padding-left: 100px; padding-top: 100px;">SPECIALS_________
+        </h2>
+        <h1 style="background-color: #0c0b09; padding-left: 100px;"> <span class="sty">Check Our Specials</span> </h1>
+
+
+        <div class="slider">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <div class="slide-img">
+                        <img src="{%static 'images/specials-1.png'%}" alt="Product 1">
+                    </div>
+                    <div class="slide-content">
+                        <h1 style="padding-top: 50px;">Architecto ut aperiam autem id</h1>
+                        <br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p><br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <div class="slide-img">
+                        <img src="{%static 'images/specials-2.png'%}" alt="Product 1">
+                    </div>
+                    <div class="slide-content">
+                        <h1 style="padding-top: 50px;">Erchitecto ut eperiam autem id</h1>
+                        <br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p><br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <div class="slide-img">
+                        <img src="{%static 'images/specials-3.png'%}" alt="Product 1">
+                    </div>
+                    <div class="slide-content">
+                        <h1 style="padding-top: 50px;">Drchitecto ut pperiam autem id</h1>
+                        <br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p><br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p>
+                    </div>
+                </div>
+
+
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <div class="slide-img">
+                        <img src="{%static 'images/specials-4.png'%}" alt="Product 1">
+                    </div>
+                    <div class="slide-content">
+                        <h1 style="padding-top: 50px;">Frchitecto ut fperiam autem id</h1>
+                        <br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p><br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p>
+                    </div>
+                </div>
+
+
+                <!-- Slide 5 -->
+                <div class="slide">
+                    <div class="slide-img">
+                        <img src="{%static 'images/specials-5.png'%}" alt="Product 1">
+                    </div>
+                    <div class="slide-content">
+                        <h1 style="padding-top: 50px;">Architecto ut aperiam autem id</h1>
+                        <br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p><br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Special Section End -->
+
+
+        <!-- Events Section Start -->
+
+        <h2 style="background-color: #0c0b09; color: white; padding-left: 100px; padding-top: 100px;">EVENTS</h2>
+        <h1 style="background-color: #0c0b09; padding-left: 100px;"> <span class="sty">Organize Your Events in Our
+                Restuarant</span> </h1>
+
+
+        <div class="slider1-container">
+            <button class="prev">❮</button>
+            <div class="slider1">
+                <div class="slide1">
+                    <div class="slide1-img">
+                        <img src="{%static 'images/event-private.jpg'%}" alt="Product 1">
+                    </div>
+                    <div class="slide1-content">
+                        <h1 style="padding-top: 50px;">Private Parties</h1>
+                        <br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p><br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p>
+                    </div>
+                </div>
+
+                <button class="prev">❮</button>
+                <div class="slide1">
+                    <div class="slide1-img">
+                        <img src="{%static 'images/event-custom.jpg'%}" alt="Product 1">
+                    </div>
+                    <div class="slide1-content">
+                        <h1 style="padding-top: 50px;">Custom Parties</h1>
+                        <br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p><br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p>
+                    </div>
+                </div>
+
+
+                <div class="slide1">
+                    <div class="slide1-img">
+                        <img src="{%static 'images/event-birthday.jpg'%}" alt="Product 1">
+                    </div>
+                    <div class="slide1-content">
+                        <h1 style="padding-top: 50px;">Birthday Parties</h1>
+                        <br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p><br>
+                        <p>Lorem ipsum dolor amet consectetur adipisicing elit. Aliquid, minus illum amet magni saepe
+                            veritatis apriam vero, quam provident a, laboriosam minima! Sint error quam est aliquam
+                            officiis nostrum maxime, fugit, eumrnkl dolor ex distinctio. Nihil consequatur praesentium
+                            illo dolorem. Recusandae quis fugit facere velit corruuipti ab vitae beatae.</p>
+                    </div>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <button class="next">❯</button>
+        </div>
+        <br>
+        <!-- Events Section End -->
+
+
+        <!-- Form Section Start -->
+
+        <div class="container1">
+            <form class="reservation-form1" action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+                <h1>Make a Reservation</h1>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Reservation Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Reservation Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" name="guests" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="requests">Special Requests</label>
+                    <textarea id="requests" name="requests"></textarea>
+                </div>
+
+                <div class="h-captcha" data-captcha="true"></div>
+                <button type="submit">Submit Form</button>
+
+            </form>
+
+            <script src="https://web3forms.com/client/script.js" async defer></script>
+
+        </div>
+        <br>
+        <!-- Form Section End -->
+
+
+        <!-- Chefs Section Start -->
+
+        <h2 style="background-color: #0c0b09; color: white; padding-left: 100px; padding-top: 100px;">Chefs__________
+        </h2>
+        <h1 style="background-color: #0c0b09; padding-left: 100px;"> <span class="sty">Our Professional Chefs</span>
+        </h1>
+
+        <div class="procard3">
+            <div class="card3">
+                <img src="{%static 'images/chefs-1.jpg'%}" alt="" width="370px" height="300px">
+                <div>
+                    <h1 style="text-align: center;">Walter White</h1>
+                    <h3 style="text-align: center;">Master Chef</h3>
+                    <p style="margin-left: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+                        voluptatibus magni ratione enim inventore, consectetur eos soluta nostrum aperiam quas?</p>
+
+                    <!-- <div class="btn"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div> -->
+                </div>
+            </div>
+
+            <div class="card3">
+                <img src="{%static 'images/chefs-2.jpg'%}" alt="" width="370px" height="300px">
+                <div>
+                    <h1 style="text-align: center;">Sarrah Johnson</h1>
+                    <h3 style="text-align: center;">Pettisier</h3>
+                    <p style="margin-left: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+                        voluptatibus magni ratione enim inventore, consectetur eos soluta nostrum aperiam quas?</p>
+
+                </div>
+            </div>
+
+            <div class="card3">
+                <img src="{%static 'images/chefs-3.jpg'%}" alt="" width="370px" height="300px">
+                <div>
+                    <h1 style="text-align: center;">Willian Andreson</h1>
+                    <h3 style="text-align: center;">Cook</h3>
+                    <p style="margin-left: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+                        voluptatibus magni ratione enim inventore, consectetur eos soluta nostrum aperiam quas?</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Chefs Section End -->
+
+        <!-- Gallery Section Start -->
+
+        <h2 style="background-color: #0c0b09; color: white; padding-left: 100px; padding-top: 100px;">
+            Gallery__________</h2>
+        <h1 style="background-color: #0c0b09; padding-left: 100px;"> <span class="sty">Some Photos of Our
+                Restuarant</span></h1>
+
+        <div class="main">
+            <div class="img-div">
+                <img src="{%static 'images/gallery-1.jpg'%}" alt="">
+            </div>
+
+            <div class="img-div">
+                <img src="{%static 'images/gallery-2.jpg'%}" alt="">
+            </div>
+
+            <div class="img-div">
+                <img src="{%static 'images/gallery-3.jpg'%}" alt="">
+            </div>
+
+            <div class="img-div">
+                <img src="{%static 'images/gallery-4.jpg'%}" alt="">
+            </div>
+
+            <div class="img-div">
+                <img src="{%static 'images/gallery-5.jpg'%}" alt="">
+            </div>
+
+            <div class="img-div">
+                <img src="{%static 'images/gallery-6.jpg'%}" alt="">
+            </div>
+
+            <div class="img-div">
+                <img src="{%static 'images/gallery-7.jpg'%}" alt="">
+            </div>
+
+            <div class="img-div">
+                <img src="{%static 'images/gallery-8.jpg'%}" alt="">
+            </div>
+        </div>
+        <br>
+        <!-- Gallery Section End -->
+
+        <!-- Contact Section Start -->
+
+
+        <h2 style="background-color: #0c0b09; color: white; padding-left: 100px; padding-top: 100px;">
+            CONTACT__________</h2>
+        <h1 style="background-color: #0c0b09; padding-left: 100px;"> <span class="sty">Contact Us</span></h1>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.1930514607648!2d76.52205461037649!3d31.683289974031965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3904d55378abe22d%3A0x5f30058dd5fc4ee1!2sExcellence%20Technology%20Hamirpur!5e0!3m2!1sen!2sin!4v1716710038538!5m2!1sen!2sin"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- contact us start -->
+
+        <section class="contact">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contactinfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="text">
+                            <h2>Location</h2>
+                            <p>V.P.O-Kashmir<br>Teh-Galore<br>Distt-Hamirpur</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                        <div class="text">
+                            <h2>Call</h2>
+                            <p>9876543210</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text">
+                            <h2>Email</h2>
+                            <p>tneha3309@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="6fcb6a55-6fa0-4736-8d98-356afeaf5448">
+
+                        <div class="input-box">
+                            <input type="text" name="name" required>
+                            <span>Your Name</span>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="email" name="email" required>
+                            <span>Your Email</span>
+                        </div>
+
+                        <div class="input-box">
+                            <textarea name="message" required></textarea>
+                            <span>Send a message..</span>
+                        </div>
+
+
+                        <div class="h-captcha" data-captcha="true"></div>
+                        <input type="hidden" name="from_name" value="Mission Control">
+                        <button type="submit">Submit Form</button>
+                    </form>
+
+                    <script src="https://web3forms.com/client/script.js" async defer></script>
+                </div>
+            </div>
+
+        </section>
+        <!-- Contact Section End -->
+
+
+        <!-- Footer Section Start -->
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>DIVYBHANDAR</p>
+                    <p>A108 Adam Street <br>NY 535022, USA <br><br>Phone: +1 5589 55488 55 <br>Email: info@example.com
+                    </p>
+                    <img src="" alt="Company Logo">
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/templates/index.html">Home</a></li>
+                        <li><a href="/templates/About.html">About</a></li>
+                        <li><a href="/templates/Menu.html">Menu</a></li>
+                        <li><a href="/templates/Specials.html">Special</a></li>
+                        <li><a href="/templates/Chefs.html">Chefs</a></li>
+                        <li><a href="/templates/Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Subscribe</h3>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; DIVYBHANDAR All rights reserved.</p>
+            </div>
+        </footer>
+
+
+        <!-- Footer Section End -->
+    </main>
+
+    <script src="{%static 'js/slide.js'%}"></script>
+</body>
+
+</html>
